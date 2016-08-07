@@ -7,6 +7,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.svdesign.remindme.server.")
-public class WebConfig extends WebMvcConfigurerAdapter{
+@ComponentScan("com.svdesign.remindme.server")
+public class WebConfig extends WebMvcConfigurerAdapter {
 }
